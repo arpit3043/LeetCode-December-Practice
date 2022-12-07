@@ -1,0 +1,11 @@
+#include <bits/stdc++.h> 
+bool isPowerOfTwo(int n) {
+    // Write your code here
+    if(n == 0) {
+        return false;
+    }
+    if(ceil(log2(n)) == floor(log2(n))) {
+        return true;
+    }
+    return false;
+}
